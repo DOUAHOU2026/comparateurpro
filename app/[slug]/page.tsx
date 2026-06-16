@@ -55,12 +55,6 @@ export default function ArticlePage({ params }: PageProps) {
     '@type': 'Product',
     name: product.name,
     image: product.image,
-    offers: {
-      '@type': 'Offer',
-      price: product.price,
-      priceCurrency: 'EUR',
-      availability: 'https://schema.org/InStock',
-    },
   }));
 
   return (
@@ -79,6 +73,10 @@ export default function ArticlePage({ params }: PageProps) {
 
       <section id="comparatif" className="bg-white py-12 sm:py-16">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-900">
+            En tant que Partenaire Amazon, nous realisons un benefice sur les achats remplissant les conditions requises.
+            Les liens vers Amazon peuvent etre des liens affilies. Les prix et disponibilites doivent etre verifies sur Amazon avant achat.
+          </div>
           <ComparisonTable products={categoryProducts} />
         </div>
       </section>

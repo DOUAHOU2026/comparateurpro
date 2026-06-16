@@ -13,17 +13,17 @@ export function Footer() {
           <div>
             <h4 className="mb-3 font-semibold text-white">Categories</h4>
             <ul className="space-y-2 text-sm">
+              <li><a href="/machines-a-cafe-grain" className="hover:text-indigo-400">Cafe & cuisine</a></li>
               <li><a href="/aspirateurs-robots" className="hover:text-indigo-400">Electromenager</a></li>
-              <li><a href="/aspirateurs-robots" className="hover:text-indigo-400">Tech & Gadgets</a></li>
               <li><a href="/aspirateurs-robots" className="hover:text-indigo-400">Maison & Deco</a></li>
             </ul>
           </div>
           <div>
             <h4 className="mb-3 font-semibold text-white">Legal</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-indigo-400">Mentions legales</a></li>
-              <li><a href="#" className="hover:text-indigo-400">Confidentialite</a></li>
-              <li><a href="#" className="hover:text-indigo-400">Cookies</a></li>
+              <li><a href="/mentions-legales" className="hover:text-indigo-400">Mentions legales</a></li>
+              <li><a href="/confidentialite" className="hover:text-indigo-400">Confidentialite</a></li>
+              <li><a href="/cookies" className="hover:text-indigo-400">Cookies</a></li>
             </ul>
           </div>
           <div>
@@ -35,8 +35,9 @@ export function Footer() {
             </form>
           </div>
         </div>
-        <div className="border-t border-gray-800 pt-8 text-sm text-gray-500">
-          <p>2026 ComparateurPro. Les prix et disponibilites sont sujets a variation.</p>
+        <div className="space-y-2 border-t border-gray-800 pt-8 text-sm text-gray-500">
+          <p>2026 ComparateurPro. Les prix, disponibilites et caracteristiques sont sujets a variation.</p>
+          <p>En tant que Partenaire Amazon, nous realisons un benefice sur les achats remplissant les conditions requises.</p>
         </div>
       </div>
     </footer>

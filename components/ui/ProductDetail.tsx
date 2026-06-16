@@ -20,7 +20,7 @@ export function ProductDetail({ product, badgeIndex }: ProductDetailProps) {
     <div className="mb-6 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
       <div className="grid grid-cols-1 md:grid-cols-12">
         <div className="flex flex-col items-center justify-center border-b border-gray-200 bg-gray-50 p-6 md:col-span-4 md:border-b-0 md:border-r">
-          <img src={product.image} alt={product.name} className="w-full max-w-xs rounded-xl bg-white object-cover shadow-sm" />
+          <img src={product.image} alt={product.name} className="h-64 w-full max-w-xs rounded-xl bg-white object-contain p-3 shadow-sm" />
           <div className="mt-4">
             <span className="rounded-lg bg-gray-900 px-4 py-2 font-bold text-white">{badge}</span>
           </div>
@@ -71,7 +71,7 @@ export function ProductDetail({ product, badgeIndex }: ProductDetailProps) {
           </p>
 
           <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored nofollow" className="inline-flex w-full items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-indigo-700 sm:w-auto">
-            Voir sur Amazon - {product.price.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' })}
+            Voir le prix sur Amazon
           </a>
         </div>
       </div>

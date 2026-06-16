@@ -1,8 +1,8 @@
 const categories = [
-  { id: 'aspirateurs-robots', title: 'Electromenager', count: 124, icon: '01' },
-  { id: 'tech', title: 'Tech & Gadgets', count: 87, icon: '02' },
-  { id: 'maison', title: 'Maison & Deco', count: 65, icon: '03' },
-  { id: 'jardin', title: 'Jardin & Exterieur', count: 42, icon: '04' },
+  { id: 'machines-a-cafe-grain', title: 'Cafe & cuisine', count: 1, icon: '01' },
+  { id: 'aspirateurs-robots', title: 'Electromenager', count: 1, icon: '02' },
+  { id: 'tech', title: 'Tech & Gadgets', count: 87, icon: '03' },
+  { id: 'maison', title: 'Maison & Deco', count: 65, icon: '04' },
 ];
 
 export function CategoriesSection() {
