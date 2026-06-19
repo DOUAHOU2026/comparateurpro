@@ -42,23 +42,29 @@ Ne jamais écrire d'identifiant d'affiliation en dur dans les pages de composant
 Nous avons intégré un outil de création automatique d'articles de comparaison SEO à l'aide de l'API de Google Gemini (2.5 Flash).
 
 ### 1. Prérequis
-Créez un fichier `.env.local` à la racine du projet et ajoutez-y votre clé d'API Gemini :
-```env
-GEMINI_API_KEY=votre_cle_api_ici
-```
+### Méthode 1 : Demander à l'assistant IA (Recommandée & Sans clé API)
+Si vous n'avez pas de clé API Gemini personnelle, demandez simplement à votre assistant IA (moi-même) dans le chat :
+> *"Génère un comparatif complet pour le mot-clé : [mot-clé]"*
+*(Exemple : "Génère un comparatif pour litière automatique").*
 
-### 2. Lancer la génération
-Pour générer un comparatif complet des **6 meilleurs produits** pour un mot-clé spécifique, ouvrez votre terminal et exécutez la commande suivante :
-```bash
-node scripts/generate-comparison.js "votre mot-clé"
-```
-*Exemple :*
-```bash
-node scripts/generate-comparison.js "friteuse sans huile"
-```
+L'assistant effectuera les recherches sur le web, choisira les 6 meilleurs produits réels, formatera les liens avec votre ID d'affiliation `sababou2026-21`, injectera les données dans [products.ts](file:///c:/Users/VAKARAMOKO%20DOUMBIA/Documents/Codex/2026-06-15/dans-le-projet-situ-dans-c/outputs/amazon-comparateur/components/data/products.ts), et pourra même lancer le déploiement sur Cloudflare pour vous !
 
-### 3. Ce que fait le script automatiquement :
-1. Interroge l'API Gemini pour chercher et identifier **6 modèles réels et pertinents** actuellement sur le marché.
+---
+
+### Méthode 2 : Lancer le script en local (Nécessite une clé API Gemini)
+Si vous possédez une clé API Gemini personnelle :
+1. Créez un fichier `.env.local` à la racine du projet et ajoutez-y votre clé d'API :
+   ```env
+   GEMINI_API_KEY=votre_cle_api_ici
+   ```
+2. Ouvrez votre terminal et exécutez la commande suivante :
+   ```bash
+   node scripts/generate-comparison.js "votre mot-clé"
+   ```
+   *(Exemple : `node scripts/generate-comparison.js "friteuse sans huile"`).*
+
+### Ce que fait l'outil automatiquement (méthode 1 ou 2) :
+1. Interroge l'IA pour chercher et identifier **6 modèles réels et pertinents** actuellement sur le marché.
 2. Structure la fiche produit complète pour chaque modèle (caractéristiques, avantages, inconvénients, note sur 10, résumé, profil d'acheteur idéal).
 3. Génère les textes d'introduction optimisés SEO, le guide d'achat et la FAQ.
 4. Génère les liens Amazon d'affiliation avec votre tag permanent (`sababou2026-21`).
