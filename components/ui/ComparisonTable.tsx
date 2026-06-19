@@ -33,11 +33,23 @@ export function ComparisonTable({ products, title }: ComparisonTableProps) {
                 <tr key={product.id} className={`transition-colors duration-150 ${rowHighlight}`}>
                   <td className="px-6 py-5">
                     <div className="flex items-center gap-4">
-                      <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-xl border border-slate-100 bg-white p-1.5 shadow-sm">
+                      <a
+                        href={product.amazonUrl}
+                        target="_blank"
+                        rel="noopener noreferrer sponsored nofollow"
+                        className="relative h-16 w-16 shrink-0 overflow-hidden rounded-xl border border-slate-100 bg-white p-1.5 shadow-sm transition-colors hover:border-indigo-300"
+                      >
                         <img src={product.image} alt={product.name} className="h-full w-full object-contain" />
-                      </div>
+                      </a>
                       <div>
-                        <p className="font-bold text-slate-900">{product.name}</p>
+                        <a
+                          href={product.amazonUrl}
+                          target="_blank"
+                          rel="noopener noreferrer sponsored nofollow"
+                          className="font-bold text-slate-900 transition-colors hover:text-indigo-600 block"
+                        >
+                          {product.name}
+                        </a>
                         <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
                           {product.isBestChoice && (
                             <span className="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2.5 py-0.5 text-xs font-bold text-indigo-700 border border-indigo-100">

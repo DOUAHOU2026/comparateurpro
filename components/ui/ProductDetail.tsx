@@ -27,9 +27,14 @@ export function ProductDetail({ product, badgeIndex }: ProductDetailProps) {
       <div className="grid grid-cols-1 lg:grid-cols-12">
         {/* Left Column: Image & Badge */}
         <div className="flex flex-col items-center justify-between bg-slate-50/70 p-8 lg:col-span-4 lg:border-r lg:border-slate-100">
-          <div className="flex h-64 w-full items-center justify-center rounded-xl bg-white p-4 shadow-sm border border-slate-100">
+          <a
+            href={product.amazonUrl}
+            target="_blank"
+            rel="noopener noreferrer sponsored nofollow"
+            className="flex h-64 w-full items-center justify-center rounded-xl bg-white p-4 shadow-sm border border-slate-100 transition-colors hover:border-indigo-300"
+          >
             <img src={product.image} alt={product.name} className="max-h-full max-w-full object-contain" />
-          </div>
+          </a>
           <div className="mt-6 w-full text-center">
             <span className={`inline-block rounded-xl bg-gradient-to-r ${badgeStyle} px-5 py-2.5 text-sm font-extrabold text-white shadow-md`}>
               {badgeText}
@@ -42,7 +47,14 @@ export function ProductDetail({ product, badgeIndex }: ProductDetailProps) {
           <div>
             {/* Title & Rating */}
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-              <h3 className="text-2xl font-extrabold tracking-tight text-slate-900">{product.name}</h3>
+              <a
+                href={product.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer sponsored nofollow"
+                className="text-2xl font-extrabold tracking-tight text-slate-900 transition-colors hover:text-indigo-600"
+              >
+                {product.name}
+              </a>
               <div className="flex items-center gap-1.5 self-start rounded-xl bg-amber-50 px-3 py-1.5 text-sm font-bold text-amber-800 border border-amber-100 sm:self-center">
                 <span>{product.rating}</span>
                 <span className="text-amber-500">★</span>

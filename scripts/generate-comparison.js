@@ -47,6 +47,7 @@ Génère les données strictement sous le format JSON suivant (sans aucun texte 
     "title": "Les 6 meilleurs [mot-clé] en 2026",
     "heroImage": "/images/placeholder.svg",
     "category": "slug-du-mot-cle-en-minuscules-avec-tirets",
+    "mainCategory": "electromenager" ou "chiens-chats",
     "metaDescription": "Description SEO de l'article de moins de 150 caractères.",
     "intro": "Une introduction accrocheuse d'environ 3-4 phrases expliquant l'intérêt de ce comparatif.",
     "guideTitle": "Guide d'achat : comment bien choisir un [mot-clé] ?",
@@ -65,6 +66,7 @@ Génère les données strictement sous le format JSON suivant (sans aucun texte 
       "rating": 9.4,
       "price": 499,
       "category": "slug-du-mot-cle-en-minuscules-avec-tirets",
+      "asin": "Code ASIN de 10 caractères du produit réel sur Amazon France (commençant par B0). Si introuvable, laisser vide ou omettre",
       "isBestChoice": true,
       "isBestValue": false,
       "isPremium": false,
@@ -78,13 +80,16 @@ Génère les données strictement sous le format JSON suivant (sans aucun texte 
   ]
 }
 
-Règles de sélection des produits :
+Règles de sélection et de classification :
 - Produit 1 : Meilleur Choix (isBestChoice: true)
 - Produit 2 : Meilleur Rapport Qualité/Prix (isBestValue: true)
 - Produit 6 : Choix Premium (isPremium: true)
 - Les autres produits (3, 4, 5) ont isBestChoice, isBestValue et isPremium à false.
 - Les notes (rating) doivent être réalistes (ex: entre 8.0 et 9.6).
 - Les prix (price) doivent correspondre au marché actuel en Euros.
+- "mainCategory" du post doit obligatoirement être défini à l'une de ces deux valeurs selon l'univers du mot-clé :
+  - "electromenager" : pour tous les comparatifs d'appareils électroménagers ou de cuisine (aspirateurs robots, machines à café, friteuses sans huile, lave-vaisselle, purificateurs d'air, robots de cuisine, etc.)
+  - "chiens-chats" : pour tous les comparatifs de produits pour chiens et chats (croquettes, fontaines à eau, litières automatiques, jouets, arbres à chat, paniers, caméras, distributeurs automatiques, etc.)
 `;
 
 // 4. Query Gemini API
@@ -120,18 +125,22 @@ async function generate() {
 
   let fileContent = fs.readFileSync(dataFilePath, 'utf8');
 
-  // Format products and inject helper function search queries instead of static URLs
-  const formattedProducts = parsedData.products.map(p => ({
-    ...p,
-    amazonUrl: `__AMZ_SEARCH_URL__('${p.name}')`
-  }));
+  // Format products and inject helper function product URLs
+  const formattedProducts = parsedData.products.map(p => {
+    const urlParam = p.asin && p.asin.startsWith('B0') && p.asin.length === 10 ? p.asin : p.name;
+    const { asin, ...rest } = p; // Remove asin property so it matches the Product TypeScript definition
+    return {
+      ...rest,
+      amazonUrl: `__AMZ_PRODUCT_URL__('${urlParam}')`
+    };
+  });
 
   // Format to string
   let productsStr = JSON.stringify(formattedProducts, null, 2);
   // Remove outer array brackets [ and ]
   productsStr = productsStr.slice(1, -1).trim();
   // Replace dummy function string with actual function call syntax
-  productsStr = productsStr.replace(/"amazonUrl":\s*"__AMZ_SEARCH_URL__\((.*?)\)"/g, '"amazonUrl": amazonSearchUrl($1)');
+  productsStr = productsStr.replace(/"amazonUrl":\s*"__AMZ_PRODUCT_URL__\((.*?)\)"/g, '"amazonUrl": amazonProductUrl($1)');
 
   // Prepend or Append to products array
   const productsIndex = fileContent.indexOf("export const products: Product[] = [");

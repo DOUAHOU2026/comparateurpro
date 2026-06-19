@@ -8,14 +8,11 @@ export function Navbar() {
         <div className="flex items-center gap-8">
           <Logo />
           <nav className="hidden gap-6 text-sm font-semibold text-slate-600 md:flex">
-            <a href="/aspirateurs-robots" className="transition hover:text-indigo-600 relative py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-600 after:transition-all hover:after:w-full">
+            <a href="/electromenager" className="transition hover:text-indigo-600 relative py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-600 after:transition-all hover:after:w-full">
               Électroménager
             </a>
-            <a href="#articles" className="transition hover:text-indigo-600 relative py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-600 after:transition-all hover:after:w-full">
-              Derniers tests
-            </a>
-            <a href="#comparatifs" className="transition hover:text-indigo-600 relative py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-600 after:transition-all hover:after:w-full">
-              Catégories
+            <a href="/chiens-chats" className="transition hover:text-indigo-600 relative py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-600 after:transition-all hover:after:w-full">
+              Chiens & Chats
             </a>
           </nav>
         </div>
