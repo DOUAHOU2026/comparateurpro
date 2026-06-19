@@ -42,7 +42,7 @@ const coffeeImages = {
   juraE8:
     'https://api.jura.com/media/global/images/home-products/e-line-2023/E8-EC-SC/e8-chrome-ec-15581/e8_ec_chrome_packshot.jpg?cb=208335',
 };
-const amazonTag = 'VOTRE-ID-PARTENAIRE-21';
+const amazonTag = 'sababou2026-21';
 
 function amazonSearchUrl(query: string) {
   return `https://www.amazon.fr/s?k=${encodeURIComponent(query)}&tag=${amazonTag}`;
@@ -55,7 +55,7 @@ export const products: Product[] = [
     image: placeholder,
     rating: 4.9,
     price: 899,
-    amazonUrl: 'https://www.amazon.fr/',
+    amazonUrl: amazonSearchUrl('Roborock S8 Ultra'),
     category: 'aspirateurs-robots',
     isBestChoice: true,
     summary: 'Un modele premium pour illustrer la fiche produit complete.',
@@ -70,7 +70,7 @@ export const products: Product[] = [
     image: placeholder,
     rating: 4.7,
     price: 749,
-    amazonUrl: 'https://www.amazon.fr/',
+    amazonUrl: amazonSearchUrl('Ecovacs Deebot X1 OMNI'),
     category: 'aspirateurs-robots',
     isBestValue: true,
     summary: 'Un exemple de choix equilibre entre fonctions avancees et budget.',
@@ -85,7 +85,7 @@ export const products: Product[] = [
     image: placeholder,
     rating: 4.6,
     price: 599,
-    amazonUrl: 'https://www.amazon.fr/',
+    amazonUrl: amazonSearchUrl('Shark AI Pro'),
     category: 'aspirateurs-robots',
     summary: 'Une fiche exemple pour un modele milieu de gamme efficace.',
     pros: ['Utilisation simple', 'Bon niveau d aspiration', 'Prix plus accessible'],
@@ -99,7 +99,7 @@ export const products: Product[] = [
     image: placeholder,
     rating: 4.4,
     price: 449,
-    amazonUrl: 'https://www.amazon.fr/',
+    amazonUrl: amazonSearchUrl('Philips LightLive 5000'),
     category: 'aspirateurs-robots',
     summary: 'Un exemple de produit accessible pour les petites surfaces.',
     pros: ['Format compact', 'Prix modere', 'Entretien simple'],
@@ -113,7 +113,7 @@ export const products: Product[] = [
     image: placeholder,
     rating: 4.1,
     price: 299,
-    amazonUrl: 'https://www.amazon.fr/',
+    amazonUrl: amazonSearchUrl('Geeni Smart RX200'),
     category: 'aspirateurs-robots',
     summary: 'Une option entree de gamme pour montrer le format top 6.',
     pros: ['Budget reduit', 'Fonctions essentielles', 'Facile a comparer'],
@@ -127,7 +127,7 @@ export const products: Product[] = [
     image: placeholder,
     rating: 4.3,
     price: 399,
-    amazonUrl: 'https://www.amazon.fr/',
+    amazonUrl: amazonSearchUrl('Anker RoboVac G30'),
     category: 'aspirateurs-robots',
     isPremium: true,
     summary: 'Un modele exemple pour completer le comparatif avec six produits.',
