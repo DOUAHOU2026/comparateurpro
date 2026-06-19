@@ -15,8 +15,8 @@ export default function ConfidentialitePage() {
         {
           title: 'Responsable du traitement',
           body: [
-            'Responsable du traitement : A COMPLETER avec votre nom, societe ou micro-entreprise.',
-            'Contact pour les demandes relatives aux donnees personnelles : A COMPLETER avec votre email.',
+            'Responsable du traitement : SABABOU / VAKARAMOKO DOUMBIA.',
+            'Contact pour les demandes relatives aux donnees personnelles : fahdoumbia2026@gmail.com.',
           ],
         },
         {
@@ -62,7 +62,7 @@ export default function ConfidentialitePage() {
           title: 'Vos droits',
           body: [
             'Conformement au RGPD, vous pouvez demander l acces, la rectification, l effacement, la limitation, l opposition au traitement et, lorsque applicable, la portabilite de vos donnees.',
-            'Vous pouvez exercer ces droits en contactant : A COMPLETER.',
+            'Vous pouvez exercer ces droits en contactant : fahdoumbia2026@gmail.com.',
             'Vous pouvez egalement introduire une reclamation aupres de la CNIL si vous estimez que vos droits ne sont pas respectes.',
           ],
         },

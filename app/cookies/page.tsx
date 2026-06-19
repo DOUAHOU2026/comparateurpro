@@ -51,7 +51,7 @@ export default function CookiesPage() {
           title: 'Parametrage du navigateur',
           body: [
             'Vous pouvez configurer votre navigateur pour bloquer ou supprimer les cookies. Le blocage de certains cookies peut modifier le fonctionnement de certains sites.',
-            'Pour toute question sur les cookies utilises par ComparateurPro, contactez : A COMPLETER.',
+            'Pour toute question sur les cookies utilises par ComparateurPro, contactez : fahdoumbia2026@gmail.com.',
           ],
         },
       ]}

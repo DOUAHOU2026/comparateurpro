@@ -16,25 +16,25 @@ export default function MentionsLegalesPage() {
           title: 'Editeur du site',
           body: [
             'Nom du site : ComparateurPro.',
-            'Editeur : A COMPLETER - indiquez votre nom, raison sociale ou micro-entreprise.',
-            'Adresse : A COMPLETER.',
-            'Email de contact : A COMPLETER.',
-            'Numero SIRET, si applicable : A COMPLETER.',
+            'Editeur : SABABOU.',
+            'Adresse : France (Adresse postale complète disponible sur simple demande par e-mail).',
+            'Email de contact : fahdoumbia2026@gmail.com.',
+            'Statut : Éditeur particulier (Sans numéro SIRET).',
           ],
         },
         {
           title: 'Responsable de publication',
           body: [
-            'Le responsable de publication est : A COMPLETER.',
+            'Le responsable de publication est : VAKARAMOKO DOUMBIA.',
             'Pour toute question concernant le contenu publie sur le site, vous pouvez utiliser l adresse de contact indiquee ci-dessus.',
           ],
         },
         {
           title: 'Hebergement',
           body: [
-            'Hebergeur : A COMPLETER avec le nom de votre hebergeur web.',
-            'Adresse de l hebergeur : A COMPLETER.',
-            'Site web de l hebergeur : A COMPLETER.',
+            'Hebergeur : Cloudflare Inc.',
+            'Adresse de l hebergeur : 101 Townsend St, San Francisco, CA 94107, USA.',
+            'Site web de l hebergeur : https://www.cloudflare.com.',
           ],
         },
         {
