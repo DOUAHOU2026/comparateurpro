@@ -1,8 +1,8 @@
 const categories = [
   { id: 'machines-a-cafe-grain', title: 'Cafe & cuisine', count: 1, icon: '01' },
   { id: 'aspirateurs-robots', title: 'Electromenager', count: 1, icon: '02' },
-  { id: 'tech', title: 'Tech & Gadgets', count: 87, icon: '03' },
-  { id: 'maison', title: 'Maison & Deco', count: 65, icon: '04' },
+  { id: 'aspirateurs-sans-fil', title: 'Aspirateurs sans fil', count: 1, icon: '03' },
+  { id: 'maison', title: 'Maison & Deco', count: 1, icon: '04' },
 ];
 
 export function CategoriesSection() {
