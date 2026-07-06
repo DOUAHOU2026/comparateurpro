@@ -14,9 +14,6 @@ export function Navbar() {
             <a href="/chiens-chats" className="transition hover:text-indigo-600 relative py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-600 after:transition-all hover:after:w-full">
               Chiens & Chats
             </a>
-            <a href="/meilleur-distributeur-automatique-croquettes-chat" className="transition hover:text-indigo-600 relative py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-600 after:transition-all hover:after:w-full">
-              Distributeurs de croquettes
-            </a>
           </nav>
         </div>
         <SearchBar />
