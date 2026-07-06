@@ -13,8 +13,13 @@ export function Footer() {
           <div>
             <h4 className="mb-3 font-semibold text-white">Catégories</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="/machines-a-cafe-grain" className="hover:text-indigo-400">Café & cuisine</a></li>
-              <li><a href="/machine-a-cafe-a-grain-silencieuse" className="hover:text-indigo-400">Machines à café silencieuses</a></li>
+              <li><a href="/electromenager" className="hover:text-indigo-400">Électroménager</a></li>
+              <li><a href="/chiens-chats" className="hover:text-indigo-400">Chiens & Chats</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="mb-3 font-semibold text-white">Guides récents</h4>
+            <ul className="space-y-2 text-sm">
               <li><a href="/meilleure-litiere-automatique-chat" className="hover:text-indigo-400">Litières automatiques</a></li>
               <li><a href="/meilleures-fontaines-a-eau-pour-chat-2026" className="hover:text-indigo-400">Fontaines à eau pour chat</a></li>
               <li><a href="/meilleur-distributeur-automatique-croquettes-chat" className="hover:text-indigo-400">Distributeurs de croquettes</a></li>
@@ -27,14 +32,6 @@ export function Footer() {
               <li><a href="/confidentialite" className="hover:text-indigo-400">Confidentialité</a></li>
               <li><a href="/cookies" className="hover:text-indigo-400">Cookies</a></li>
             </ul>
-          </div>
-          <div>
-            <h4 className="mb-3 font-semibold text-white">Newsletter</h4>
-            <p className="mb-3 text-sm text-gray-400">Recevez nos nouveaux comparatifs.</p>
-            <form className="flex gap-2">
-              <input type="email" placeholder="Votre email" className="min-w-0 flex-1 rounded border border-gray-700 bg-gray-800 px-3 py-2 text-sm outline-none focus:border-indigo-500" />
-              <button type="submit" className="rounded bg-indigo-600 px-4 py-2 text-sm text-white hover:bg-indigo-700">OK</button>
-            </form>
           </div>
         </div>
         <div className="space-y-2 border-t border-gray-800 pt-8 text-sm text-gray-500">
