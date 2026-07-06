@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
-import { Footer, Navbar } from '@/components/ui';
+import { CookieConsent, Footer, Navbar } from '@/components/ui';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -10,10 +10,17 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'ComparateurPro - Tests independants et avis verifies',
+  metadataBase: new URL('https://comparateurpr.online'),
+  title: 'ComparateurPro - Tests indépendants et avis vérifiés',
   description:
     "Les 6 meilleurs produits avant d'acheter. Comparatifs objectifs, tests experts, prix du moment.",
   robots: 'index, follow',
+  alternates: {
+    canonical: '/',
+  },
+  verification: {
+    google: 'tLZdQZopW8IouCRJ7835QImll2xCuINBpb2F2HWG2Z4',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -23,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <CookieConsent />
       </body>
     </html>
   );

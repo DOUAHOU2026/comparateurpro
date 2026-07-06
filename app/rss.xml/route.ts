@@ -1,6 +1,6 @@
 import { posts } from '../../components/data/products';
 
-const siteUrl = 'https://example.com';
+const siteUrl = 'https://comparateurpr.online';
 
 export function GET() {
   const items = posts
@@ -20,7 +20,7 @@ export function GET() {
       <channel>
         <title>Amazon Comparateur</title>
         <link>${siteUrl}</link>
-        <description>Comparatifs produits generes depuis des donnees verifiees.</description>
+        <description>Comparatifs produits générés depuis des données vérifiées.</description>
         ${items}
       </channel>
     </rss>`;

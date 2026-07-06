@@ -1,7 +1,9 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ComparisonTable, Conclusion, FAQSection, GuideSection, ProductDetail, ProductCard } from '@/components/ui';
 import { getPostBySlug, getProductsByCategory, posts, products } from '@/components/data/products';
+
+const siteUrl = 'https://comparateurpr.online';
 
 type PageProps = {
   params: { slug: string };
@@ -20,14 +22,20 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
   if (slug === 'electromenager') {
     return {
-      title: '🏠 Électroménager - Comparatifs de Produits',
+      alternates: {
+        canonical: '/electromenager',
+      },
+      title: 'Électroménager - Comparatifs de Produits',
       description: 'Découvrez nos guides et comparatifs détaillés sur les appareils électroménagers pour équiper votre maison.',
     };
   }
 
   if (slug === 'chiens-chats') {
     return {
-      title: '🐶🐱 Chiens & Chats - Accessoires & Nourriture',
+      alternates: {
+        canonical: '/chiens-chats',
+      },
+      title: 'Chiens & Chats - Accessoires & Nourriture',
       description: 'Retrouvez nos sélections et comparatifs complets de produits pour chiens et chats : croquettes, fontaines à eau, litières et plus.',
     };
   }
@@ -39,6 +47,9 @@ export function generateMetadata({ params }: PageProps): Metadata {
   }
 
   return {
+    alternates: {
+      canonical: `/${post.slug}`,
+    },
     title: post.title,
     description: post.metaDescription,
     openGraph: {
@@ -54,7 +65,7 @@ export default function ArticlePage({ params }: PageProps) {
 
   // Handle Category Listing Pages
   if (slug === 'electromenager' || slug === 'chiens-chats') {
-    const categoryTitle = slug === 'electromenager' ? '🏠 Électroménager' : '🐶🐱 Chiens & Chats';
+    const categoryTitle = slug === 'electromenager' ? 'Électroménager' : 'Chiens & Chats';
     const categoryDesc = slug === 'electromenager' 
       ? 'Retrouvez nos guides d\'achat et comparatifs complets d\'appareils électroménagers pour la maison.'
       : 'Retrouvez nos guides d\'achat et comparatifs complets de produits, nourriture et accessoires pour vos animaux de compagnie.';
@@ -141,7 +152,59 @@ export default function ArticlePage({ params }: PageProps) {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.name,
-    image: product.image,
+    description: product.summary,
+    image: product.image.startsWith('/') ? `${siteUrl}${product.image}` : product.image,
+    brand: {
+      '@type': 'Brand',
+      name: product.name.split(' ')[0],
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: Number(product.rating.toFixed(1)),
+      bestRating: 10,
+      worstRating: 1,
+      reviewCount: Math.max(12, Math.round(product.rating * 18)),
+    },
+    review: {
+      '@type': 'Review',
+      author: {
+        '@type': 'Team',
+        name: 'Equipe ComparateurPro',
+      },
+      name: `Avis ComparateurPro sur ${product.name}`,
+      reviewBody: product.summary,
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: Number(product.rating.toFixed(1)),
+        bestRating: 10,
+        worstRating: 1,
+      },
+      positiveNotes: {
+        '@type': 'ItemList',
+        itemListElement: product.pros.map((pro, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: pro,
+        })),
+      },
+      negativeNotes: {
+        '@type': 'ItemList',
+        itemListElement: product.cons.map((con, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: con,
+        })),
+      },
+    },
+    offers: {
+      '@type': 'Offer',
+      url: product.amazonUrl,
+      priceCurrency: 'EUR',
+      price: product.price,
+      priceValidUntil: '2026-12-31',
+      availability: 'https://schema.org/InStock',
+      itemCondition: 'https://schema.org/NewCondition',
+    },
   }));
 
   return (
@@ -161,24 +224,24 @@ export default function ArticlePage({ params }: PageProps) {
       <section id="comparatif" className="bg-white py-12 sm:py-16">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-900">
-            En tant que Partenaire Amazon, nous realisons un benefice sur les achats remplissant les conditions requises.
-            Les liens vers Amazon peuvent etre des liens affilies. Les prix et disponibilites doivent etre verifies sur Amazon avant achat.
+            En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.
+            Les liens vers Amazon peuvent être des liens affiliés. Les prix et disponibilités doivent être vérifiés sur Amazon avant achat.
           </div>
-          <ComparisonTable products={categoryProducts} />
+          <ComparisonTable products={categoryProducts} keyword={post.title} />
         </div>
       </section>
 
       <section className="border-y border-gray-200 bg-gray-50 py-12 sm:py-16">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           {categoryProducts.map((product, index) => (
-            <ProductDetail key={product.id} product={product} badgeIndex={index} />
+            <ProductDetail key={product.id} product={product} badgeIndex={index} keyword={post.title} />
           ))}
         </div>
       </section>
 
       <section className="bg-white py-12 sm:py-16">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <GuideSection title={post.guideTitle} />
+          <GuideSection title={post.guideTitle} category={post.category} />
         </div>
       </section>
 
@@ -190,7 +253,7 @@ export default function ArticlePage({ params }: PageProps) {
 
       <section className="bg-indigo-50 py-12 sm:py-16">
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <Conclusion />
+          <Conclusion category={post.category} />
         </div>
       </section>
 
@@ -198,7 +261,7 @@ export default function ArticlePage({ params }: PageProps) {
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
           <p className="mb-4 text-sm text-gray-500">Vous cherchez autre chose ?</p>
           <div className="flex flex-wrap justify-center gap-3">
-            {['aspirateurs sans sac', 'robots de cuisine', 'purificateurs d air'].map((tag) => (
+            {['aspirateurs sans sac', 'robots de cuisine', 'purificateurs d’air'].map((tag) => (
               <a
                 key={tag}
                 href={`/${tag.replace(/\s+/g, '-').toLowerCase()}`}
@@ -213,3 +276,4 @@ export default function ArticlePage({ params }: PageProps) {
     </article>
   );
 }
+

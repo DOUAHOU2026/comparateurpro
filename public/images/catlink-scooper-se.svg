@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Catlink Scooper SE</title>
+  <desc id="desc">Illustration produit d'une litiere automatique Catlink Scooper SE.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="780" rx="330" ry="42" fill="#dbe3ee"/>
+  <rect x="330" y="128" width="540" height="620" rx="96" fill="#1f2937"/>
+  <rect x="392" y="190" width="416" height="438" rx="82" fill="#e5e7eb"/>
+  <ellipse cx="600" cy="410" rx="152" ry="138" fill="#111827"/>
+  <rect x="476" y="654" width="248" height="46" rx="20" fill="#4b5563"/>
+  <circle cx="746" cy="222" r="17" fill="#a78bfa"/>
+  <circle cx="790" cy="222" r="17" fill="#34d399"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#1e293b">Catlink Scooper SE</text>
+</svg>

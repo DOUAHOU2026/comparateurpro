@@ -8,21 +8,23 @@ export function Footer() {
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-indigo-600">OK</span>
               Comparateur<span className="text-indigo-500">Pro</span>
             </div>
-            <p className="text-sm text-gray-400">Comparatifs objectifs, tests independants, avis verifies.</p>
+            <p className="text-sm text-gray-400">Comparatifs objectifs, tests indépendants, avis vérifiés.</p>
           </div>
           <div>
-            <h4 className="mb-3 font-semibold text-white">Categories</h4>
+            <h4 className="mb-3 font-semibold text-white">Catégories</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="/machines-a-cafe-grain" className="hover:text-indigo-400">Cafe & cuisine</a></li>
-              <li><a href="/aspirateurs-robots" className="hover:text-indigo-400">Electromenager</a></li>
-              <li><a href="/aspirateurs-robots" className="hover:text-indigo-400">Maison & Deco</a></li>
+              <li><a href="/machines-a-cafe-grain" className="hover:text-indigo-400">Café & cuisine</a></li>
+              <li><a href="/machine-a-cafe-a-grain-silencieuse" className="hover:text-indigo-400">Machines à café silencieuses</a></li>
+              <li><a href="/meilleure-litiere-automatique-chat" className="hover:text-indigo-400">Litières automatiques</a></li>
+              <li><a href="/meilleures-fontaines-a-eau-pour-chat-2026" className="hover:text-indigo-400">Fontaines à eau pour chat</a></li>
+              <li><a href="/meilleur-distributeur-automatique-croquettes-chat" className="hover:text-indigo-400">Distributeurs de croquettes</a></li>
             </ul>
           </div>
           <div>
-            <h4 className="mb-3 font-semibold text-white">Legal</h4>
+            <h4 className="mb-3 font-semibold text-white">Légal</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="/mentions-legales" className="hover:text-indigo-400">Mentions legales</a></li>
-              <li><a href="/confidentialite" className="hover:text-indigo-400">Confidentialite</a></li>
+              <li><a href="/mentions-legales" className="hover:text-indigo-400">Mentions légales</a></li>
+              <li><a href="/confidentialite" className="hover:text-indigo-400">Confidentialité</a></li>
               <li><a href="/cookies" className="hover:text-indigo-400">Cookies</a></li>
             </ul>
           </div>
@@ -36,8 +38,8 @@ export function Footer() {
           </div>
         </div>
         <div className="space-y-2 border-t border-gray-800 pt-8 text-sm text-gray-500">
-          <p>2026 ComparateurPro. Les prix, disponibilites et caracteristiques sont sujets a variation.</p>
-          <p>En tant que Partenaire Amazon, nous realisons un benefice sur les achats remplissant les conditions requises.</p>
+          <p>2026 ComparateurPro. Les prix, disponibilités et caractéristiques sont sujets à variation.</p>
+          <p>En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.</p>
         </div>
       </div>
     </footer>

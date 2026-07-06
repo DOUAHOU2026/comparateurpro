@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">PetSafe ScoopFree Crystal Pro</title>
+  <desc id="desc">Illustration produit d'une litiere autonettoyante PetSafe ScoopFree Crystal Pro.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="770" rx="355" ry="42" fill="#dbe3ee"/>
+  <path d="M298 326h604l-62 352H360z" fill="#dbeafe"/>
+  <path d="M348 360h504l-43 260H391z" fill="#f8fafc"/>
+  <rect x="372" y="414" width="456" height="34" rx="17" fill="#60a5fa"/>
+  <rect x="398" y="496" width="404" height="36" rx="18" fill="#bfdbfe"/>
+  <rect x="318" y="278" width="564" height="74" rx="28" fill="#1e40af"/>
+  <circle cx="800" cy="315" r="16" fill="#facc15"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#1e293b">PetSafe ScoopFree</text>
+</svg>

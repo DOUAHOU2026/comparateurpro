@@ -1,11 +1,13 @@
 import type { Product } from '@/components/data/products';
+import { ImageWatermark } from './ImageWatermark';
 
 type ComparisonTableProps = {
   products: Product[];
   title?: string;
+  keyword?: string;
 };
 
-export function ComparisonTable({ products, title }: ComparisonTableProps) {
+export function ComparisonTable({ products, title, keyword }: ComparisonTableProps) {
   return (
     <div className="overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-sm">
       <div className="border-b border-slate-100 p-6">
@@ -37,9 +39,10 @@ export function ComparisonTable({ products, title }: ComparisonTableProps) {
                         href={product.amazonUrl}
                         target="_blank"
                         rel="noopener noreferrer sponsored nofollow"
-                        className="relative h-16 w-16 shrink-0 overflow-hidden rounded-xl border border-slate-100 bg-white p-1.5 shadow-sm transition-colors hover:border-indigo-300"
+                        className="relative h-20 w-24 shrink-0 overflow-hidden rounded-xl border border-slate-100 bg-white p-1.5 shadow-sm transition-colors hover:border-indigo-300"
                       >
                         <img src={product.image} alt={product.name} className="h-full w-full object-contain" />
+                        {keyword && <ImageWatermark keyword={keyword} compact />}
                       </a>
                       <div>
                         <a
@@ -107,3 +110,4 @@ export function ComparisonTable({ products, title }: ComparisonTableProps) {
     </div>
   );
 }
+

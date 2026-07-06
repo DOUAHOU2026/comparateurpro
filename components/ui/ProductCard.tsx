@@ -1,3 +1,5 @@
+import { ImageWatermark } from './ImageWatermark';
+
 type ProductCardProps = {
   post: {
     slug: string;
@@ -20,6 +22,7 @@ export function ProductCard({ post }: ProductCardProps) {
           alt={post.title}
           className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
+        <ImageWatermark keyword={post.title} />
         <div className="absolute right-3 top-3 flex items-center gap-1 rounded-lg bg-slate-900/80 px-2 py-1 text-xs font-bold text-white shadow-sm backdrop-blur-sm">
           <span className="text-amber-400">★</span>
           {post.rating} / 5
@@ -48,3 +51,4 @@ export function ProductCard({ post }: ProductCardProps) {
     </a>
   );
 }
+

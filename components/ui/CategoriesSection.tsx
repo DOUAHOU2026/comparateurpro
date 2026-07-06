@@ -7,7 +7,7 @@ export function CategoriesSection() {
   const categories = [
     {
       id: 'electromenager',
-      title: '🏠 Électroménager',
+      title: 'Électroménager',
       count: electromenagerCount,
       icon: (
         <svg className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -17,7 +17,7 @@ export function CategoriesSection() {
     },
     {
       id: 'chiens-chats',
-      title: '🐶🐱 Chiens & Chats',
+      title: 'Chiens & Chats',
       count: chiensChatsCount,
       icon: (
         <svg className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

@@ -1,13 +1,15 @@
 import type { Product } from '@/components/data/products';
+import { ImageWatermark } from './ImageWatermark';
 
 const defaultBadges = ['Meilleur Choix', 'Rapport Qualité/Prix', 'Premium'];
 
 type ProductDetailProps = {
   product: Product;
   badgeIndex: number;
+  keyword: string;
 };
 
-export function ProductDetail({ product, badgeIndex }: ProductDetailProps) {
+export function ProductDetail({ product, badgeIndex, keyword }: ProductDetailProps) {
   const badgeText = product.isBestChoice
     ? 'Meilleur Choix'
     : product.isBestValue
@@ -31,9 +33,10 @@ export function ProductDetail({ product, badgeIndex }: ProductDetailProps) {
             href={product.amazonUrl}
             target="_blank"
             rel="noopener noreferrer sponsored nofollow"
-            className="flex h-64 w-full items-center justify-center rounded-xl bg-white p-4 shadow-sm border border-slate-100 transition-colors hover:border-indigo-300"
+            className="relative flex h-64 w-full items-center justify-center overflow-hidden rounded-xl bg-white p-4 shadow-sm border border-slate-100 transition-colors hover:border-indigo-300"
           >
             <img src={product.image} alt={product.name} className="max-h-full max-w-full object-contain" />
+            <ImageWatermark keyword={keyword} />
           </a>
           <div className="mt-6 w-full text-center">
             <span className={`inline-block rounded-xl bg-gradient-to-r ${badgeStyle} px-5 py-2.5 text-sm font-extrabold text-white shadow-md`}>
@@ -138,3 +141,4 @@ export function ProductDetail({ product, badgeIndex }: ProductDetailProps) {
     </div>
   );
 }
+

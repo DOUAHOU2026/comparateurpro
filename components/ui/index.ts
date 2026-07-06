@@ -1,10 +1,12 @@
 export { CategoriesSection } from './CategoriesSection';
 export { ComparisonTable } from './ComparisonTable';
 export { Conclusion } from './Conclusion';
+export { CookieConsent } from './CookieConsent';
 export { FAQSection } from './FAQSection';
 export { Footer } from './Footer';
 export { GuideSection } from './GuideSection';
 export { HeroSection } from './HeroSection';
+export { ImageWatermark } from './ImageWatermark';
 export { LatestComparisons } from './LatestComparisons';
 export { Logo } from './Logo';
 export { Navbar } from './Navbar';

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Moulinex Dual Easy Fry 8,3 L</title>
+  <desc id="desc">Illustration produit d'un air fryer Moulinex Dual Easy Fry 8,3 L.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="780" rx="360" ry="42" fill="#dbe3ee"/>
+  <rect x="286" y="150" width="628" height="590" rx="78" fill="#f1f5f9"/>
+  <rect x="342" y="210" width="516" height="138" rx="40" fill="#111827"/>
+  <rect x="438" y="242" width="324" height="64" rx="20" fill="#334155"/>
+  <text x="600" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="#ffffff">MOULINEX</text>
+  <rect x="342" y="414" width="232" height="196" rx="34" fill="#cbd5e1"/>
+  <rect x="626" y="414" width="232" height="196" rx="34" fill="#cbd5e1"/>
+  <path d="M402 584h112M686 584h112" stroke="#64748b" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="386" cy="278" r="30" fill="#64748b"/>
+  <circle cx="814" cy="278" r="30" fill="#64748b"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1e293b">Dual Easy Fry 8,3 L</text>
+</svg>
