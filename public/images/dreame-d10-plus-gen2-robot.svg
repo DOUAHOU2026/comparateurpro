@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Dreame D10 Plus Gen 2</title>
+  <desc id="desc">Illustration produit du robot aspirateur laveur Dreame D10 Plus Gen 2.</desc>
+  <rect width="900" height="700" fill="#f8fafc"/>
+  <rect x="600" y="120" width="150" height="310" rx="34" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="6"/>
+  <rect x="626" y="280" width="98" height="54" rx="14" fill="#dbe4ef"/>
+  <circle cx="390" cy="370" r="190" fill="#ffffff" stroke="#cbd5e1" stroke-width="8"/>
+  <circle cx="390" cy="300" r="50" fill="#e5e7eb" stroke="#94a3b8" stroke-width="6"/>
+  <rect x="332" y="385" width="116" height="36" rx="14" fill="#e2e8f0"/>
+  <path d="M260 485c-44 17-69 38-84 66" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M520 485c44 17 69 38 84 66" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+  <text x="450" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#0f172a">Dreame D10 Plus Gen 2</text>
+</svg>

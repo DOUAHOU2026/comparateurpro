@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Instant Vortex Plus ClearCook 5,7 L</title>
+  <desc id="desc">Illustration produit d'un air fryer Instant Vortex Plus ClearCook 5,7 L.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="780" rx="330" ry="42" fill="#dbe3ee"/>
+  <rect x="330" y="140" width="540" height="606" rx="84" fill="#111827"/>
+  <rect x="384" y="202" width="432" height="144" rx="40" fill="#1f2937"/>
+  <rect x="474" y="238" width="252" height="60" rx="18" fill="#020617"/>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">INSTANT</text>
+  <rect x="390" y="426" width="420" height="202" rx="38" fill="#374151"/>
+  <rect x="450" y="462" width="300" height="104" rx="26" fill="#dbeafe" opacity="0.9"/>
+  <path d="M480 606h240" stroke="#64748b" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="424" cy="274" r="32" fill="#334155"/>
+  <circle cx="776" cy="274" r="32" fill="#334155"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1e293b">Vortex Plus ClearCook</text>
+</svg>

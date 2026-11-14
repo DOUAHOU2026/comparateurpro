@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Eureka RapidWash NEW630</title>
+  <desc id="desc">Illustration produit d'un aspirateur laveur sans fil Eureka RapidWash NEW630.</desc>
+  <rect width="900" height="700" fill="#f8fafc"/>
+  <path d="M510 78l46 18-130 354-46-18z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="5"/>
+  <rect x="437" y="185" width="105" height="170" rx="34" fill="#0f172a"/>
+  <rect x="462" y="212" width="55" height="95" rx="18" fill="#334155"/>
+  <rect x="328" y="386" width="244" height="110" rx="28" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="6"/>
+  <rect x="284" y="493" width="332" height="74" rx="37" fill="#ffffff" stroke="#94a3b8" stroke-width="6"/>
+  <circle cx="345" cy="530" r="17" fill="#64748b"/>
+  <circle cx="555" cy="530" r="17" fill="#64748b"/>
+  <path d="M540 75c22-28 55-38 90-28" stroke="#0f172a" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#0f172a">Eureka RapidWash NEW630</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Whisker Litter-Robot 4</title>
+  <desc id="desc">Illustration produit d'une litiere automatique Whisker Litter-Robot 4.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="780" rx="330" ry="42" fill="#dbe3ee"/>
+  <path d="M343 360c0-172 104-262 257-262s257 90 257 262v250c0 78-64 142-142 142H485c-78 0-142-64-142-142V360z" fill="#101827"/>
+  <circle cx="600" cy="418" r="196" fill="#eef2f7"/>
+  <circle cx="600" cy="418" r="118" fill="#111827"/>
+  <rect x="462" y="642" width="276" height="56" rx="18" fill="#334155"/>
+  <circle cx="712" cy="214" r="22" fill="#38bdf8"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#1e293b">Litter-Robot 4</text>
+</svg>

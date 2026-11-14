@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Tineco Floor One S5 Combo</title>
+  <desc id="desc">Illustration produit d'un aspirateur laveur sans fil Tineco Floor One S5 Combo.</desc>
+  <rect width="900" height="700" fill="#f8fafc"/>
+  <path d="M508 95l46 18-110 332-46-18z" fill="#cbd5e1"/>
+  <path d="M530 96c35 10 59 42 54 75l-15 94c-5 32-35 51-67 43l-37-10 48-212z" fill="#e5e7eb" stroke="#94a3b8" stroke-width="6"/>
+  <rect x="327" y="384" width="245" height="110" rx="28" fill="#111827"/>
+  <rect x="350" y="404" width="199" height="48" rx="18" fill="#334155"/>
+  <rect x="285" y="492" width="330" height="70" rx="35" fill="#e2e8f0" stroke="#94a3b8" stroke-width="6"/>
+  <circle cx="340" cy="527" r="18" fill="#64748b"/>
+  <circle cx="560" cy="527" r="18" fill="#64748b"/>
+  <path d="M535 85c18-30 48-42 83-36" stroke="#0f172a" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#0f172a">Tineco Floor One S5 Combo</text>
+</svg>

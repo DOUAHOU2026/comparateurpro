@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Philips Airfryer Serie 5000 NA555/00</title>
+  <desc id="desc">Illustration produit d'un air fryer Philips Airfryer Serie 5000 NA555/00.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="780" rx="370" ry="42" fill="#dbe3ee"/>
+  <rect x="260" y="150" width="680" height="590" rx="78" fill="#111827"/>
+  <rect x="320" y="214" width="560" height="150" rx="44" fill="#1f2937"/>
+  <rect x="414" y="246" width="372" height="72" rx="22" fill="#020617"/>
+  <text x="600" y="293" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">PHILIPS</text>
+  <rect x="318" y="430" width="250" height="190" rx="36" fill="#374151"/>
+  <rect x="632" y="430" width="250" height="190" rx="36" fill="#374151"/>
+  <path d="M382 594h124M694 594h124" stroke="#64748b" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="358" cy="290" r="35" fill="#334155"/>
+  <circle cx="842" cy="290" r="35" fill="#334155"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1e293b">Airfryer Serie 5000</text>
+</svg>

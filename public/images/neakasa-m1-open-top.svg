@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Neakasa M1 Open-Top</title>
+  <desc id="desc">Illustration produit d'une litiere automatique ouverte Neakasa M1 Open-Top.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="780" rx="340" ry="42" fill="#dbe3ee"/>
+  <path d="M288 330c0-86 70-156 156-156h312c86 0 156 70 156 156v252c0 92-74 166-166 166H454c-92 0-166-74-166-166V330z" fill="#f1f5f9"/>
+  <path d="M376 310c0-42 34-76 76-76h296c42 0 76 34 76 76v8H376z" fill="#cbd5e1"/>
+  <path d="M376 348h448v226c0 56-45 101-101 101H477c-56 0-101-45-101-101z" fill="#334155"/>
+  <path d="M450 390h300v156c0 40-32 72-72 72H522c-40 0-72-32-72-72z" fill="#f8fafc"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#1e293b">Neakasa M1 Open-Top</text>
+</svg>

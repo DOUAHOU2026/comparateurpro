@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">MeoWant MW-SC01</title>
+  <desc id="desc">Illustration produit d'une litiere automatique MeoWant MW-SC01.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="780" rx="330" ry="42" fill="#dbe3ee"/>
+  <rect x="344" y="138" width="512" height="606" rx="88" fill="#e0f2fe"/>
+  <rect x="400" y="196" width="400" height="420" rx="78" fill="#f8fafc"/>
+  <circle cx="600" cy="410" r="142" fill="#0f172a"/>
+  <circle cx="600" cy="410" r="78" fill="#e0f2fe"/>
+  <rect x="475" y="650" width="250" height="48" rx="20" fill="#0284c7"/>
+  <circle cx="736" cy="224" r="16" fill="#22c55e"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#1e293b">MeoWant MW-SC01</text>
+</svg>

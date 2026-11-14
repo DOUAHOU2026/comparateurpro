@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">PETKIT Pura Max 2</title>
+  <desc id="desc">Illustration produit d'une litiere automatique PETKIT Pura Max 2.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="780" rx="320" ry="40" fill="#dbe3ee"/>
+  <rect x="337" y="136" width="526" height="612" rx="92" fill="#e2e8f0"/>
+  <rect x="390" y="188" width="420" height="464" rx="78" fill="#f8fafc"/>
+  <circle cx="600" cy="420" r="150" fill="#94a3b8"/>
+  <circle cx="600" cy="420" r="92" fill="#f8fafc"/>
+  <rect x="480" y="664" width="240" height="42" rx="21" fill="#64748b"/>
+  <circle cx="742" cy="214" r="18" fill="#22c55e"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#1e293b">PETKIT Pura Max 2</text>
+</svg>

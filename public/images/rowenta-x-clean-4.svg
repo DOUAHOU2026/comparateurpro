@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Rowenta X-Clean 4</title>
+  <desc id="desc">Illustration produit d'un aspirateur laveur sans fil Rowenta X-Clean 4.</desc>
+  <rect width="900" height="700" fill="#f8fafc"/>
+  <path d="M498 88l44 18-114 340-44-18z" fill="#dbe4ef"/>
+  <rect x="430" y="200" width="105" height="155" rx="32" fill="#111827"/>
+  <rect x="452" y="222" width="62" height="84" rx="20" fill="#334155"/>
+  <rect x="328" y="392" width="245" height="102" rx="26" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="6"/>
+  <rect x="284" y="494" width="332" height="70" rx="35" fill="#e2e8f0" stroke="#94a3b8" stroke-width="6"/>
+  <circle cx="345" cy="529" r="16" fill="#64748b"/>
+  <circle cx="555" cy="529" r="16" fill="#64748b"/>
+  <path d="M527 84c22-27 52-36 87-28" stroke="#0f172a" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#0f172a">Rowenta X-Clean 4</text>
+</svg>

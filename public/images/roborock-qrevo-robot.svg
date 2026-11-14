@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Roborock Qrevo</title>
+  <desc id="desc">Illustration produit du robot aspirateur laveur Roborock Qrevo avec station.</desc>
+  <rect width="900" height="700" fill="#f8fafc"/>
+  <rect x="285" y="70" width="330" height="355" rx="42" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="6"/>
+  <rect x="315" y="290" width="270" height="70" rx="18" fill="#e2e8f0"/>
+  <circle cx="450" cy="458" r="132" fill="#ffffff" stroke="#cbd5e1" stroke-width="7"/>
+  <circle cx="450" cy="410" r="40" fill="#e5e7eb" stroke="#94a3b8" stroke-width="5"/>
+  <rect x="385" y="482" width="130" height="46" rx="16" fill="#1f2937"/>
+  <path d="M330 520c-50 15-78 36-93 62" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M570 520c50 15 78 36 93 62" stroke="#94a3b8" stroke-width="10" stroke-linecap="round"/>
+  <text x="450" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#0f172a">Roborock Qrevo</text>
+</svg>

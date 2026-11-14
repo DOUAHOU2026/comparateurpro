@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Xiaomi Robot Vacuum X20+</title>
+  <desc id="desc">Illustration produit du robot aspirateur laveur Xiaomi Robot Vacuum X20+.</desc>
+  <rect width="900" height="700" fill="#f8fafc"/>
+  <rect x="305" y="75" width="290" height="365" rx="50" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="6"/>
+  <rect x="325" y="265" width="250" height="74" rx="18" fill="#dbe4ef"/>
+  <circle cx="450" cy="462" r="126" fill="#ffffff" stroke="#cbd5e1" stroke-width="7"/>
+  <circle cx="450" cy="418" r="37" fill="#e5e7eb" stroke="#94a3b8" stroke-width="5"/>
+  <rect x="385" y="490" width="130" height="45" rx="16" fill="#111827"/>
+  <circle cx="450" cy="512" r="15" fill="#64748b"/>
+  <text x="450" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#0f172a">Xiaomi Robot Vacuum X20+</text>
+</svg>

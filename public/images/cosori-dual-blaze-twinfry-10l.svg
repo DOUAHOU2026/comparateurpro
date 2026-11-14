@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cosori Dual Blaze TwinFry 10 L</title>
+  <desc id="desc">Illustration produit d'un air fryer Cosori Dual Blaze TwinFry 10 L.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <ellipse cx="600" cy="780" rx="365" ry="42" fill="#dbe3ee"/>
+  <rect x="272" y="134" width="656" height="620" rx="88" fill="#0f172a"/>
+  <rect x="340" y="200" width="520" height="136" rx="38" fill="#334155"/>
+  <rect x="450" y="232" width="300" height="62" rx="20" fill="#020617"/>
+  <text x="600" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#f8fafc">COSORI</text>
+  <rect x="336" y="402" width="528" height="214" rx="42" fill="#1f2937"/>
+  <line x1="600" y1="402" x2="600" y2="616" stroke="#64748b" stroke-width="12"/>
+  <path d="M418 586h118M664 586h118" stroke="#94a3b8" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="384" cy="268" r="32" fill="#475569"/>
+  <circle cx="816" cy="268" r="32" fill="#475569"/>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1e293b">TwinFry 10 L</text>
+</svg>

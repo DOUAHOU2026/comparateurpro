@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#f8fafc"/>
+  <rect x="252" y="68" width="118" height="94" rx="34" fill="#475569"/>
+  <circle cx="332" cy="116" r="38" fill="#cbd5e1"/>
+  <rect x="300" y="150" width="34" height="210" rx="17" fill="#334155"/>
+  <rect x="160" y="340" width="320" height="66" rx="30" fill="#1f2937"/>
+  <rect x="204" y="356" width="232" height="28" rx="14" fill="#60a5fa"/>
+  <text x="320" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Dreame R20</text>
+</svg>

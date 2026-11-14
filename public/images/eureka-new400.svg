@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Eureka NEW400</title>
+  <desc id="desc">Illustration produit d'un aspirateur laveur sans fil Eureka NEW400.</desc>
+  <rect width="900" height="700" fill="#f8fafc"/>
+  <path d="M508 88l42 16-122 345-42-16z" fill="#cbd5e1"/>
+  <rect x="432" y="205" width="98" height="150" rx="30" fill="#ffffff" stroke="#cbd5e1" stroke-width="6"/>
+  <rect x="330" y="392" width="240" height="102" rx="26" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="6"/>
+  <rect x="285" y="493" width="330" height="72" rx="36" fill="#111827"/>
+  <circle cx="345" cy="529" r="16" fill="#64748b"/>
+  <circle cx="555" cy="529" r="16" fill="#64748b"/>
+  <path d="M536 83c20-25 50-34 81-26" stroke="#0f172a" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#0f172a">Eureka NEW400</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Dreame H12 Pro Ultra</title>
+  <desc id="desc">Illustration produit d'un aspirateur laveur sans fil Dreame H12 Pro Ultra.</desc>
+  <rect width="900" height="700" fill="#f8fafc"/>
+  <path d="M510 82l44 15-126 350-44-15z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="5"/>
+  <rect x="447" y="188" width="96" height="165" rx="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="6"/>
+  <rect x="332" y="386" width="235" height="108" rx="28" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="6"/>
+  <rect x="355" y="408" width="190" height="42" rx="16" fill="#dbe4ef"/>
+  <rect x="286" y="492" width="328" height="72" rx="36" fill="#111827"/>
+  <circle cx="350" cy="528" r="17" fill="#64748b"/>
+  <circle cx="550" cy="528" r="17" fill="#64748b"/>
+  <path d="M539 76c22-25 54-33 84-22" stroke="#0f172a" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#0f172a">Dreame H12 Pro Ultra</text>
+</svg>
