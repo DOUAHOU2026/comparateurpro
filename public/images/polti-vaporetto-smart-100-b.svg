@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Polti Vaporetto Smart 100_B</title>
+  <desc id="desc">Illustration produit du nettoyeur vapeur traineau Polti Vaporetto Smart 100_B.</desc>
+  <rect width="900" height="650" fill="#f8fafc"/>
+  <ellipse cx="460" cy="546" rx="315" ry="36" fill="#dbe4ee"/>
+  <path d="M306 376h278c58 0 105 47 105 105v29H250v-78c0-31 25-56 56-56z" fill="#ffffff" stroke="#d7dee8" stroke-width="10"/>
+  <path d="M505 388h75c29 0 53 24 53 53v62H505z" fill="#0ea5e9"/>
+  <path d="M250 503h438v33c0 22-18 40-40 40H290c-22 0-40-18-40-40z" fill="#222833"/>
+  <circle cx="605" cy="535" r="42" fill="#0f172a"/>
+  <circle cx="605" cy="535" r="23" fill="#94a3b8"/>
+  <circle cx="320" cy="535" r="30" fill="#0f172a"/>
+  <path d="M574 379c75-95 19-178-82-196" fill="none" stroke="#111827" stroke-width="16" stroke-linecap="round"/>
+  <path d="M493 184l-42-61" stroke="#111827" stroke-width="16" stroke-linecap="round"/>
+  <path d="M452 123 304 337" stroke="#111827" stroke-width="16" stroke-linecap="round"/>
+  <path d="M304 337 224 456" stroke="#111827" stroke-width="16" stroke-linecap="round"/>
+  <rect x="95" y="458" width="252" height="44" rx="12" fill="#0f172a"/>
+  <rect x="120" y="492" width="202" height="29" rx="9" fill="#67e8f9"/>
+  <text x="318" y="461" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="#0f172a">Smart 100_B</text>
+</svg>

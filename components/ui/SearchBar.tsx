@@ -1,46 +1,12 @@
 'use client';
 
-import { useState } from 'react';
-
-const searchRoutes = [
-  {
-    href: '/meilleur-distributeur-automatique-croquettes-chat',
-    keywords: ['croquette', 'croquettes', 'distributeur', 'gamelle automatique', 'nourriture chat'],
-  },
-  {
-    href: '/meilleures-fontaines-a-eau-pour-chat-2026',
-    keywords: ['fontaine', 'eau', 'hydratation'],
-  },
-  {
-    href: '/meilleure-litiere-automatique-chat',
-    keywords: ['litiere', 'litière', 'bac', 'autonettoyante'],
-  },
-  {
-    href: '/machines-a-cafe-grain',
-    keywords: ['cafe', 'café', 'machine', 'grain'],
-  },
-];
-
-function getSearchTarget(query: string) {
-  const normalizedQuery = query.trim().toLowerCase();
-  const match = searchRoutes.find((route) =>
-    route.keywords.some((keyword) => normalizedQuery.includes(keyword))
-  );
-
-  return match?.href || '/chiens-chats';
-}
-
 export function SearchBar() {
-  const [query, setQuery] = useState('');
-
   return (
-    <form action={getSearchTarget(query)} className="relative w-full max-w-xs">
+    <form action="/recherche" method="get" className="relative w-full max-w-xs">
       <input
         type="text"
         name="q"
         placeholder="Rechercher un produit..."
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
         className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2 pl-10 pr-12 text-sm text-slate-800 outline-none transition-all placeholder:text-slate-400 focus:border-indigo-500 focus:bg-white focus:ring-4 focus:ring-indigo-100"
       />
       <span className="pointer-events-none absolute left-3 top-2.5 text-slate-400">

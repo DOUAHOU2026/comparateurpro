@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#f8fafc"/>
+  <rect x="250" y="72" width="108" height="118" rx="28" fill="#4f46e5"/>
+  <rect x="280" y="34" width="52" height="70" rx="18" fill="#f59e0b"/>
+  <rect x="294" y="168" width="42" height="190" rx="18" fill="#111827"/>
+  <rect x="168" y="336" width="294" height="72" rx="28" fill="#e5e7eb"/>
+  <rect x="202" y="356" width="226" height="32" rx="16" fill="#64748b"/>
+  <circle cx="304" cy="132" r="32" fill="#ffffff" opacity=".9"/>
+  <text x="320" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Dyson V15 Detect</text>
+</svg>

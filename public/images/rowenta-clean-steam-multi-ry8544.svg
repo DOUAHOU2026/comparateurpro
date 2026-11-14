@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Rowenta Clean &amp; Steam Multi RY8544</title>
+  <desc id="desc">Illustration produit du Rowenta Clean &amp; Steam Multi RY8544 aspirateur et nettoyeur vapeur.</desc>
+  <rect width="900" height="650" fill="#f8fafc"/>
+  <ellipse cx="455" cy="558" rx="305" ry="33" fill="#dbe4ee"/>
+  <path d="M452 75h52v187l57 78v170h-160V340l51-78z" fill="#ffffff" stroke="#d7dee8" stroke-width="9"/>
+  <path d="M431 315h100v83H431z" fill="#38bdf8"/>
+  <path d="M420 410h130v84H420z" fill="#ef4444" opacity=".9"/>
+  <path d="M410 492h154v47H410z" fill="#e2e8f0"/>
+  <rect x="342" y="525" width="290" height="45" rx="16" fill="#0f172a"/>
+  <path d="M376 567h222" stroke="#94a3b8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M505 74c37 25 44 61 20 108" fill="none" stroke="#0f172a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M650 152h80v92h-80z" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="8"/>
+  <path d="M655 255h72" stroke="#0284c7" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="687" cy="353" r="28" fill="#0ea5e9"/>
+  <circle cx="749" cy="353" r="28" fill="#ef4444"/>
+  <circle cx="687" cy="421" r="28" fill="#22c55e"/>
+  <text x="284" y="614" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="#0f172a">Clean &amp; Steam Multi</text>
+</svg>

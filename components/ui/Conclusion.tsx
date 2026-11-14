@@ -13,6 +13,10 @@ const conclusionsByCategory: Record<string, string> = {
     'La meilleure machine à café à grain dépend de vos boissons préférées, du niveau de personnalisation voulu et de la facilité d’entretien. Un bon broyeur, un réservoir pratique et des réglages simples font la différence au quotidien.',
   'machine-a-cafe-a-grain-silencieuse':
     'Une machine à café à grain silencieuse reste toujours audible pendant le broyage, mais les meilleurs modèles réduisent les nuisances avec un broyeur mieux intégré, des cycles plus courts et un entretien bien guidé.',
+  'meilleur-climatiseur-mobile-2026':
+    'De’Longhi Pinguino PAC EX100 Silent est le choix le plus complet pour rafraîchir efficacement un appartement ou une grande pièce. COMFEE’ Easy Cool 2.9 reste le meilleur rapport qualité prix pour une chambre ou un bureau, tandis que Klarstein Kraftwerk Smart 12K devient plus pertinent pour un salon, une maison ou un usage connecté.',
+  'meilleur-robot-de-cuisine-2026':
+    'Moulinex Companion XL reste le meilleur choix global pour cuisiner plus souvent sans complexité. Kenwood kCook Multi est intéressant pour la découpe intégrée, Magimix Cook Expert vise la durabilité premium, ClickChef convient aux petits budgets et Cookeo Touch reste l’alternative la plus simple si votre priorité est la cuisson rapide.',
 };
 
 export function Conclusion({ category }: ConclusionProps) {
@@ -29,12 +33,6 @@ export function Conclusion({ category }: ConclusionProps) {
         <a href="#comparatif" className="inline-block rounded-lg bg-gray-900 px-6 py-3 text-white transition hover:bg-gray-800">
           Voir à nouveau le tableau comparatif
         </a>
-      </div>
-      <div className="text-sm text-gray-500">
-        <p>
-          Les liens Amazon sont des liens affiliés. Une commission peut être perçue si vous achetez via ces liens,
-          sans impact direct sur le prix affiché.
-        </p>
       </div>
     </>
   );

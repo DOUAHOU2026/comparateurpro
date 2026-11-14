@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#f8fafc"/>
+  <rect x="258" y="64" width="110" height="126" rx="28" fill="#111827"/>
+  <rect x="300" y="86" width="36" height="74" rx="12" fill="#22c55e"/>
+  <rect x="294" y="170" width="36" height="190" rx="18" fill="#94a3b8"/>
+  <rect x="178" y="340" width="284" height="66" rx="28" fill="#1f2937"/>
+  <rect x="214" y="358" width="212" height="24" rx="12" fill="#22c55e"/>
+  <text x="320" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Hoover HF9</text>
+</svg>

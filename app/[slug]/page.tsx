@@ -223,10 +223,6 @@ export default function ArticlePage({ params }: PageProps) {
 
       <section id="comparatif" className="bg-white py-12 sm:py-16">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-900">
-            En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.
-            Les liens vers Amazon peuvent être des liens affiliés. Les prix et disponibilités doivent être vérifiés sur Amazon avant achat.
-          </div>
           <ComparisonTable products={categoryProducts} keyword={post.title} />
         </div>
       </section>

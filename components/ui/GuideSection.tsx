@@ -29,6 +29,16 @@ const guidesByCategory: Record<string, { title: string; desc: string }[]> = {
     { title: 'Broyeur', desc: 'La qualité du broyeur influence le bruit, la régularité et les arômes du café.' },
     { title: 'Entretien', desc: 'Un entretien simple évite les blocages et garde une extraction régulière.' },
   ],
+  'meilleur-climatiseur-mobile-2026': [
+    { title: 'Puissance', desc: 'Adaptez les BTU à la surface, l’exposition au soleil et l’isolation de la pièce.' },
+    { title: 'Évacuation', desc: 'Un bon calfeutrage de fenêtre et un tuyau court changent beaucoup l’efficacité réelle.' },
+    { title: 'Bruit', desc: 'Comparez le mode nuit, le niveau sonore annoncé et l’emplacement prévu dans la pièce.' },
+  ],
+  'meilleur-robot-de-cuisine-2026': [
+    { title: 'Usage', desc: 'Choisissez entre cuisson complète, pâtisserie, découpe ou cuisson rapide selon vos vraies habitudes.' },
+    { title: 'Capacité', desc: 'Un bol XL aide les familles, tandis qu’un robot compact convient mieux aux petites cuisines.' },
+    { title: 'Accessoires', desc: 'Vérifiez hachoir, pétrin, batteur, panier vapeur, découpe, balance et pièces lavables.' },
+  ],
 };
 
 export function GuideSection({ title, category }: GuideSectionProps) {

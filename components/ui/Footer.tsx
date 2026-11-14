@@ -36,7 +36,6 @@ export function Footer() {
         </div>
         <div className="space-y-2 border-t border-gray-800 pt-8 text-sm text-gray-500">
           <p>2026 ComparateurPro. Les prix, disponibilités et caractéristiques sont sujets à variation.</p>
-          <p>En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.</p>
         </div>
       </div>
     </footer>

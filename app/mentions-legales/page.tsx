@@ -3,7 +3,7 @@ import { LegalPage } from '@/components/ui/LegalPage';
 
 export const metadata: Metadata = {
   title: 'Mentions legales - ComparateurPro',
-  description: 'Mentions legales, informations editeur et transparence affiliation de ComparateurPro.',
+  description: 'Mentions legales et informations editeur de ComparateurPro.',
 };
 
 export default function MentionsLegalesPage() {
@@ -35,14 +35,6 @@ export default function MentionsLegalesPage() {
             'Hebergeur : Cloudflare Inc.',
             'Adresse de l hebergeur : 101 Townsend St, San Francisco, CA 94107, USA.',
             'Site web de l hebergeur : https://www.cloudflare.com.',
-          ],
-        },
-        {
-          title: 'Affiliation Amazon',
-          body: [
-            'ComparateurPro participe au Programme Partenaires d Amazon EU, un programme d affiliation permettant a des sites de percevoir une remuneration grace a la creation de liens vers Amazon.fr.',
-            'En tant que Partenaire Amazon, nous realisons un benefice sur les achats remplissant les conditions requises.',
-            'Les liens vers Amazon peuvent etre des liens affilies. Cela ne modifie pas le prix paye par l utilisateur.',
           ],
         },
         {
