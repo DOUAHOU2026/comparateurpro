@@ -1,6 +1,6 @@
 import { posts } from '../../components/data/products';
 
-const siteUrl = 'https://example.com';
+const siteUrl = 'https://comparateurpr.online';
 
 export function GET() {
   const items = posts

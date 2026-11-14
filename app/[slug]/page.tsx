@@ -178,7 +178,7 @@ export default function ArticlePage({ params }: PageProps) {
 
       <section className="bg-white py-12 sm:py-16">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <GuideSection title={post.guideTitle} />
+          <GuideSection title={post.guideTitle} category={post.category} />
         </div>
       </section>
 
